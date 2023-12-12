@@ -1,2 +1,2 @@
-#!/bin/bash 
-ls -aFm --group-directories-first
+#!/bin/bash
+ls -aF --group-directories-first -m

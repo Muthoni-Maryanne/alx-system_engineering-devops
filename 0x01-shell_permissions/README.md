@@ -1,5 +1,15 @@
 **0x01-shell_permissions**
 
+This covered Linux shell permissions commands which include: chown, chmod, chgrp, sudo, su, id, umask, groups, whoami, adduser, useradd and addgroup. 
+
+The resources used to learn were:
+
+1). [Permissions](https://linuxcommand.org/lc3_lts0090.php)
+
+2). [Chapter 9 of 'The Linux command line'](https://linuxcommand.org/tlcl.php)
+
+**Below are tasks done to reinforce the concepts learnt:**
+
 **Task 0:** [0-iam_betty](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/blob/main/0x01-shell_permissions/0-iam_betty)- Create a script that switches the current user to the user betty.
 ![1](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/assets/107298263/cac8c7f7-7765-483e-8ae8-40f17aa139d9)
 

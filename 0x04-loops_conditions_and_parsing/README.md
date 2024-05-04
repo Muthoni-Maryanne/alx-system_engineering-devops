@@ -53,5 +53,11 @@ done
 **Other comparison operators**
 
 1. Integer comparison: -eq, -ne, -gt, -ge, -lt, <, <=, >, >=
+
+Example: ```if [ "$a" -le "$b" ]``` or ```(("$a" < "$b"))```
+
 2. String comparison: =, ==, <, >, -z, -n
+
+Example: ```if [ "$a" = "$b" ]``` or ```if [[ "$a" < "$b" ]]``` 0r ```if [ "$a" \< "$b" ]```
+
 3. Compound comparison: -a, -o

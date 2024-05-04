@@ -1,6 +1,6 @@
 # 0x04. Loops, conditions and parsing
 
-This is a continuation of the Shell, I began working with loops and conditionals in Bash.
+Continuation of the shell, I began working with loops and conditionals in Bash.
 
 ## Resources
 1. [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)

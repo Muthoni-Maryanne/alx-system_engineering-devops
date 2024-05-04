@@ -53,3 +53,4 @@ done
 
 1. Integer comparison: -eq, -ne, -gt, -ge, -lt, <, <=, >, >=
 2. String comparison: =, ==, <, >, -z, -n
+3. Compound comparison: -a, -o

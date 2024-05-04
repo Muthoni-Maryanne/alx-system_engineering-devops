@@ -4,6 +4,7 @@ This is a continuation of the Shell, I began working with loops and conditionals
 
 ## Resources
 1. [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
+2. [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)
 
 ## Summary
 **For loop**

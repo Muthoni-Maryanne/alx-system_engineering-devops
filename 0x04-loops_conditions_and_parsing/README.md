@@ -48,3 +48,8 @@ done
 3. Bitwise: <<, <<=, >>, >>=, &, &=, |, |=, ^, ^=, ~
 4. Logical/boolean: &&, ||, !
 5. Comma operator.
+
+**Other comparison operators**
+
+1. Integer comparison: -eq, -ne, -gt, -ge, -lt, <, <=, >, >=
+2. String comparison: =, ==, <, >, -z, -n

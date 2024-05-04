@@ -5,6 +5,7 @@ This is a continuation of the Shell, I began working with loops and conditionals
 ## Resources
 1. [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
 2. [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)
+3. [Comparison operators](https://tldp.org/LDP/abs/html/comparison-ops.html)
 
 ## Summary
 **For loop**
@@ -40,3 +41,10 @@ for file in *.html; do
     cat "$endfile" >> "$new_name"
 done
 ```
+**Operators**
+
+1. assignment: =
+2. arithmetic: +, -, *, /, **, %, +=, -=, *=, /=, %=
+3. Bitwise: <<, <<=, >>, >>=, &, &=, |, |=, ^, ^=, ~
+4. Logical/boolean: &&, ||, !
+5. Comma operator.

@@ -101,3 +101,7 @@ exit 0
 ```[ condition1 -a condition2 ]``` or ```[[ condition1 && condition2 ]]```
 
 ```[ condition1 -o condition2 ]``` or ```[[ condition1 || condition2 ]]```
+
+**File test operators**
+
+-e/-a, -f, -s, -d, -b, -c, -p, -h, -L, -S, -t, -r, -w, -x, -g, -u, -K, -O, -G, -N, f1 -nt f2, f1 -ot f2, f1 -ef f2, !

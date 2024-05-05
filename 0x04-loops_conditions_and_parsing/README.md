@@ -96,4 +96,7 @@ echo
 exit 0
 ```
 
-3. Compound comparison: -a, -o
+3. Compound comparison: -a, -o, similar to && and ||
+
+```[ condition1 -a condition2 ]``` or ```[[ condition1 && condition2 ]]```
+```[ condition1 -o condition2 ]``` or ```[[ condition1 || condition2 ]]```

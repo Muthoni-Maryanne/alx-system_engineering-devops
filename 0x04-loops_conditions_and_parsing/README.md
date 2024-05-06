@@ -7,6 +7,9 @@ Continuation of the shell, I began working with loops and conditionals in Bash.
 2. [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)
 3. [Comparison operators](https://tldp.org/LDP/abs/html/comparison-ops.html)
 4. [File test operators](https://tldp.org/LDP/abs/html/fto.html)
+5. [Make your scripts portable](https://www.cyberciti.biz/tips/finding-bash-perl-python-portably-using-env.html)
+6. [Linux Bash Shell Scripting Tutorial](https://bash.cyberciti.biz/guide/Main_Page)
+7. [Shell check](https://github.com/koalaman/shellcheck)
 
 ## Summary
 **For loop**
@@ -105,3 +108,168 @@ exit 0
 **File test operators**
 
 -e/-a, -f, -s, -d, -b, -c, -p, -h, -L, -S, -t, -r, -w, -x, -g, -u, -K, -O, -G, -N, f1 -nt f2, f1 -ot f2, f1 -ef f2, !
+
+**if, if..else..fi, nested ifs, multilevel if-then-else**
+Example:
+```
+#!/bin/bash
+# Purpose: Detecting Hardware Errors
+
+# Store path to commands
+LOGGER=/usr/bin/logger
+FILE=/var/log/mcelog
+
+# Store email settings
+AEMAIL="vivek@nixcraft.net.in"
+ASUB="H/W Error - $(hostname)"
+AMESS="Warning - Hardware errors found on $(hostname) @ $(date). See log file for the details /var/log/mcelog."
+OK_MESS="OK: NO Hardware Error Found."
+WARN_MESS="ERROR: Hardware Error Found."
+
+# Check if $FILE exists or not
+if test ! -f "$FILE" 
+then   
+	echo "Error - $FILE not found or mcelog is not configured for 64 bit Linux systems."
+	exit 1
+fi
+
+# okay search for errors in file
+error_log=$(grep -c -i "hardware error" $FILE)
+
+# error found or not?
+if [ $error_log -gt 0 ]
+then    # yes error(s) found, let send an email
+	echo "$AMESS" | email -s "$ASUB" $AEMAIL
+else    # naa, everything looks okay
+	echo "$OK_MESS"
+fi
+```
+**while, for, until loops**
+
+**While Syntax:**
+```
+while [ condition ]
+    do
+        command1
+        command2
+        ..
+        ....
+        commandN
+    done
+```
+To read a text file line-by-line, use the following syntax:
+```
+while IFS= read -r line        #Treats each line as a whole, assigning it to the variable line.
+    do
+        command1 on $line
+        command2 on $line
+        ..
+        ....
+        commandN
+        done < "/path/to/filename"
+```
+OR
+```
+# reads lines from a file but parses each line into multiple fields based on the separator defined by IFS.
+# Each field (e.g., field1, field2, ...) in a line is assigned to a corresponding variable.
+while IFS= read -r field1 filed2 field3 ... fieldN
+    do
+        command1 on $field1
+        command2 on $field1 and $field3
+        ..
+        ....
+        commandN on $field1 ... $fieldN
+    done < "/path/to dir/file name with space"
+```
+IFS is used to set field separator (default is white space). 
+The -r option to read command disables backslash escaping (e.g., \n, \t). 
+This is failsafe while read loop for reading text files.
+
+**For Syntax:**
+```
+for var in item1 item2 ... itemN
+    do
+        command1
+        command2
+        ....
+        ...
+        commandN
+    done
+```
+The for loop numerical explicit list syntax:
+```
+for var in list-of-values
+    do
+        command1
+        command2
+        ....
+        ...
+        commandN
+    done
+```
+The for loop explicit file list syntax:
+```
+for var in file1 file2 file3 fileN
+    do
+        command1
+        command2
+        ....
+        ...
+        commandN
+    done
+```
+The for loop variable's contents syntax:
+```
+for var in $fileNames
+    do
+        command1
+        command2
+        ....
+        ...
+        commandN
+    done
+```
+The for loop command substitution syntax:
+```
+for var in $(Linux-command-name)
+    do
+        command1
+        command2
+        ....
+        ...
+        commandN
+    done
+```
+The for loop explicit file list using bash array syntax:
+```
+# define an array   
+ArrayName=(~/.config/*.conf)
+for var in "${ArrayName[@]}" 
+    do
+        command1
+        command2
+        ....
+        ...
+        commandN
+    done
+```
+The for loop three-expression syntax ( this type of for loop share a common heritage with the C programming language ):
+```
+for (( EXP1; EXP2; EXP3 ))
+do
+	command1
+	command2
+	command3
+done
+```
+**Until syntax:**
+```
+until [ condition ]
+do
+   command1
+   command2
+   ...
+   ....
+   commandN
+done
+```

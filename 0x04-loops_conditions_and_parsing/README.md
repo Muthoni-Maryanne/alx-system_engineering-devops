@@ -275,7 +275,7 @@ done
 ```
 ## Tasks
 
-**Task 0:** Create a RSA key pair.
+**Task 0:**	[0-RSA_public_key.pub](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/0-RSA_public_key.pub)- Create a RSA key pair.
 
 Resources:
 1. [How do I set up SSH authentication keys?- Linux and Mac OS users](https://askubuntu.com/questions/61557/how-do-i-set-up-ssh-authentication-keys)
@@ -283,3 +283,7 @@ Resources:
 3. [Data centres](https://www.youtube.com/watch?v=iuqXFC_qIvA&feature=youtu.be&t=46)
 
 ![1](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/assets/107298263/01e0304c-18a6-4f88-bce7-2d96d96ac634)
+
+**Task 1:**	[1-for_best_school](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/1-for_best_school)- Bash script that displays Best School 10 times.
+
+![1](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/assets/107298263/7db239bd-a7d8-4628-9f61-c28d7f109e07)

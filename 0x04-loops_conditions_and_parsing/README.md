@@ -287,3 +287,11 @@ Resources:
 **Task 1:**	[1-for_best_school](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/1-for_best_school)- Bash script that displays Best School 10 times.
 
 ![1](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/assets/107298263/7db239bd-a7d8-4628-9f61-c28d7f109e07)
+
+**Task 2:**	[2-while_best_school](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/2-while_best_school)-Bash script that displays Best School 10 times.
+
+![2](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/assets/107298263/869fdc25-bb71-4e37-878c-2832b347370f)
+
+**Task 3:**	[3-until_best_school](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/blob/master/0x04-loops_conditions_and_parsing/3-until_best_school)-Bash script that displays Best School 10 times.
+
+![3](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/assets/107298263/669a2f1b-646e-4a89-b013-07c8580c8189)

@@ -273,3 +273,13 @@ do
    commandN
 done
 ```
+## Tasks
+
+**Task 0:** Create a RSA key pair.
+
+Resources:
+1. [How do I set up SSH authentication keys?- Linux and Mac OS users](https://askubuntu.com/questions/61557/how-do-i-set-up-ssh-authentication-keys)
+2. [Generate RSA keys with SSH by using PuTTYgen- Windows users](https://docs.rackspace.com/docs/generating-rsa-keys-with-ssh-puttygen)
+3. [Data centres](https://www.youtube.com/watch?v=iuqXFC_qIvA&feature=youtu.be&t=46)
+
+![1](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/assets/107298263/01e0304c-18a6-4f88-bce7-2d96d96ac634)

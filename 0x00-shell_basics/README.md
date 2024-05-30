@@ -24,6 +24,13 @@ This was an introduction to shell basics and the concepts learnt were: the shell
 
 10). [Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)
 
+## Learning objectives
+- How to navigate in an Unix system
+- How to list files and directories
+- How to display the content of a file
+- How to create a file or directory
+- How to remove a file or directory
+- How to move or copy a file or directory
 
 ## Tasks
 

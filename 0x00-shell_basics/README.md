@@ -1,8 +1,8 @@
-**0x00. Shell, basics**
+# 0x00. Shell, basics
 
 This was an introduction to shell basics and the concepts learnt were: the shell, navigation, a tour of the Linux file system, manipulating files with commands such as mv, cp, rm and many more, scripting, keyboard shortcuts and many more.
 
-The resources used to learn were:
+## Resources
 
 1). [What is "the Shell"?](https://linuxcommand.org/lc3_lts0010.php)
 
@@ -25,7 +25,7 @@ The resources used to learn were:
 10). [Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)
 
 
-**Below are tasks done to reinforce the concepts learnt:**
+## Tasks
 
 **Task 0:**
 [0-current_working_directory](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/blob/main/0x00-shell_basics/0-current_working_directory)- Write a script that prints the absolute path name of the current working directory.

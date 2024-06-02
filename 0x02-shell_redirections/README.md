@@ -1,8 +1,8 @@
-**0x02. Shell, I/O Redirections and filters**
+# 0x02. Shell, I/O Redirections and filters
 
 This covered Linux shell I/O Redirections for standard output, error and input, filters, pipelines and metacharacters. Commands learnt about include echo, cat, head, tail, fins, wc, sort, uniq, grep, sort, tr, rev, cut and passwd.
 
-The resources used to learn were:
+## Resources
 
 1). [Shell, I/O Redirection](https://linuxcommand.org/lc3_lts0070.php)
 
@@ -10,7 +10,29 @@ The resources used to learn were:
 
 3). [Chapter 6 of 'The Linux command line'](https://linuxcommand.org/tlcl.php)
 
-**Below are tasks done to reinforce the concepts learnt:**
+## Learning Objectives
+
+**Shell, I/O Redirection**
+
+- What do the commands head, tail, find, wc, sort, uniq, grep, tr do
+- How to redirect standard output to a file
+- How to get standard input from a file instead of the keyboard
+- How to send the output from one program to the input of another program
+- How to combine commands and filters with redirections
+
+**Special Characters**
+- What are special characters
+- Understand what do the white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde and how and when to use them
+
+**Other Man Pages**
+- How to display a line of text
+- How to concatenate files and print on the standard output
+- How to reverse a string
+- How to remove sections from each line of files
+- What is the /etc/passwd file and what is its format
+- What is the /etc/shadow file and what is its format
+
+## Tasks
 
 **Task 0**: [0-hello_world](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/blob/main/0x02-shell_redirections/0-hello_world)- Write a script that prints “Hello, World”, followed by a new line to the standard output.
 ![0](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/assets/107298263/c29a8e32-974a-45e3-8280-c499198b85e6)

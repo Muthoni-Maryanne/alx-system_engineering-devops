@@ -1,15 +1,16 @@
 # 0x03. Shell, init files, variables and expansions
 This is a continuation of shell and bash scripting that looks at expansions(tilde, parameter, arithmetic, brace, pathname, command substitution), quoting, escaping characters, shell arithmetic(shell expansion, compound command, let built-in, declare -i), variables(global/environment, local/shell), special parameters($*, $@, $-, $_, $$, $0, $!, $#) and alias command.
 
-# Resources
-1. []()
-2. []()
-3. []()
-4. []()
-5. []()
-6. []()
+## Resources
+1. [Expansion](https://linuxcommand.org/lc3_lts0080.php)
+2. [Shell arithmetic](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html)
+3. [Variables](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html)
+4. [Shell initialization files](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html)
+5. [Alias](https://www.linfo.org/alias.html)
+6. [Technical Writing](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/6/9112669886fd446a2aa3113c31319d1f468dc160.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240604T000430Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=689a626dea90437f329f1c495508f3609f05b1cbeafb0d9aeaf7ba24a1430862)
 7. man pages of printenv, set, unset, export, alias, unalias, source/. and printenv.
 
+## Tasks
 **Task 0:** [0-alias](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/blob/main/0x03-shell_variables_expansions/0-alias)- Create a script that creates an alias. 
 Name: ls
 Value: rm *

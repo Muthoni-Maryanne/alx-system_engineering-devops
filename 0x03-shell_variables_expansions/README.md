@@ -1,4 +1,14 @@
-**0x03. Shell, init files, variables and expansions**
+# 0x03. Shell, init files, variables and expansions
+This is a continuation of shell and bash scripting that looks at expansions(tilde, parameter, arithmetic, brace, pathname, command substitution), quoting, escaping characters, shell arithmetic(shell expansion, compound command, let built-in, declare -i), variables(global/environment, local/shell), special parameters($*, $@, $-, $_, $$, $0, $!, $#) and alias command.
+
+# Resources
+1. []()
+2. []()
+3. []()
+4. []()
+5. []()
+6. []()
+7. man pages of printenv, set, unset, export, alias, unalias, source/. and printenv.
 
 **Task 0:** [0-alias](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/blob/main/0x03-shell_variables_expansions/0-alias)- Create a script that creates an alias. 
 Name: ls

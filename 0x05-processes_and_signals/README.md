@@ -96,3 +96,5 @@ There are two commands available in Linux to track running processes. These two 
 To stop a process: ```$ kill [pid]``` or ```$ kill [signal] [pid]```.
 
 To change priority of new process:```$ nice -n [value] [process name]``` or already running process: ```renice [value] -p 'PID'```.
+
+## Tasks

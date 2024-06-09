@@ -6,6 +6,7 @@ This is a continuation of shell and bash scripting that looks at processes, type
 2. [Linux Processes](https://www.thegeekstuff.com/2012/03/linux-processes-environment/)
 3. [Linux signal](https://www.educative.io/answers/what-are-linux-signals)
 4. [Process Management in Linux](https://www.digitalocean.com/community/tutorials/process-management-in-linux)
+5. [Linux signals](https://www.computerhope.com/unix/signals.htm)
 
 ## Learning objectives
 

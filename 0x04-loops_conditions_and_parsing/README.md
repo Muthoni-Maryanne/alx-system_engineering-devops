@@ -20,7 +20,7 @@ Continuation of the shell, I began working with loops and conditionals in Bash.
 - How to use the cut command
 - What are files and other comparison operators, and how to use them
 
-Requirements
+## Requirements
 
 - Allowed editors: vi, vim, emacs
 - All your files will be interpreted on Ubuntu 20.04 LTS

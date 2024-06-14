@@ -15,7 +15,6 @@ This looks at regex: modifiers, brackets, meta characters.
 5. [Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
 
 ## Background Context
-
 For this project, you have to build your regular expression using Oniguruma, a regular expression library that which is used by Ruby by default. Note that other regular expression libraries sometimes have different properties. Because the focus of this exercise is to play with regular expressions (regex), here is the Ruby code that you should use, just replace the regexp part, meaning the code in between the //:
 ```
 sylvain@ubuntu$ cat example.rb
@@ -28,7 +27,8 @@ sylvain@ubuntu$ ./example.rb 127.0.0.1
 127.0.0.1
 sylvain@ubuntu$ ./example.rb 127.0.0.a
 ```
-## Learning objectives
+- The first line of all your Bash scripts should be exactly #!/usr/bin/env ruby
+- All your regex must be built for the Oniguruma library
 
 ## Summary
 A regular expression, commonly called a “regexp”, is a sequence of characters that define a search pattern.  It is mainly for use in pattern matching with strings, or string matching (i.e. it operates like a “find and replace” command).
@@ -44,6 +44,8 @@ A regular expression, commonly called a “regexp”, is a sequence of character
 **Rubular regex quick reference**
 
 ![summary0](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/assets/107298263/9b17d949-23dd-4bd0-860f-f9d3806a6c41)
+
+
 
 ## Tasks
 

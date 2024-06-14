@@ -10,9 +10,9 @@ This looks at regex: modifiers, brackets, meta characters.
 ## Resources
 1. [Regular expressions - basics](https://www.slideshare.net/slideshow/introducing-regular-expressions/63676155)
 2. [Regular expressions - advanced](https://www.slideshare.net/slideshow/advanced-regular-expressions-80296518/80296518)
-3. []()
-4. []()
-5. []()
+3. [Regular Expressions: Now You Have Two Problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
+4. [Rubular is your best friend](https://rubular.com/)
+5. [Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
 
 ## Background Context
 

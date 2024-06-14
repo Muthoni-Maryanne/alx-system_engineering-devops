@@ -18,4 +18,13 @@ This looks at regex: modifiers, brackets, meta characters.
 
 ## Summary
 A regular expression, commonly called a “regexp”, is a sequence of characters that define a search pattern.  It is mainly for use in pattern matching with strings, or string matching (i.e. it operates like a “find and replace” command).
+
+**JavaScript RegExp Reference**
+- Modifiers: g, i, m, d.
+- Brackets: [abc], [^abc], [0-9], [^0-9], (x|y)
+- Metacharacters: ., \d, \s, \w, \b, \D, \S, \W, \B, \0, \n, \f, \r, \t, \v, \xxx, \xdd, \uddd.
+- Quantifiers: n+, n*, n?, n{X}, n{X, Y}, n{X,}, n$, ^n, ?=n, ?!n.
+- Object properties: constructor, global, ignoreCase, lastIndex, multiline, source.
+- Object methods: exec(), test(), toString().
 ## Tasks
+

@@ -8,8 +8,8 @@ This looks at regex: modifiers, brackets, meta characters.
 4. [Regular Expression 101](https://regex101.com/)
 
 ## Resources
-1. []()
-2. []()
+1. [Regular expressions - basics](https://www.slideshare.net/slideshow/introducing-regular-expressions/63676155)
+2. [Regular expressions - advanced](https://www.slideshare.net/slideshow/advanced-regular-expressions-80296518/80296518)
 3. []()
 4. []()
 5. []()

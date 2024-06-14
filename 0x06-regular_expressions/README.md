@@ -45,7 +45,15 @@ A regular expression, commonly called a “regexp”, is a sequence of character
 
 ![summary0](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/assets/107298263/9b17d949-23dd-4bd0-860f-f9d3806a6c41)
 
-
+****
+- Repitition token: {m, n}, ?, +, -
+  1. Greedy(backtracks): *, +, ?, {m, n}
+  2. Lazy(backtracks): *?, +?, ??, {m, n}?
+  3. Possesive(does not backtrack): *+, ++, ?+, {m, n}+
+- Anchor token: ^, $, \A, \Z
+- Character token: [a-zA-Z0-9], [^a-zA-Z0-9], [a-zA-Z0-9]+, [1st -[2nd]].
+- Shortcut token: \d, \s, \w, \D, \S, \W
+- The dot(.)
 
 ## Tasks
 

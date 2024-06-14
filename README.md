@@ -21,5 +21,13 @@ This covers Linux, the shell specifically BASH, BASH scripting.
 |1.    | [0x01-shell_permissions](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/tree/master/0x01-shell_permissions)              | This covered Linux shell permissions commands which include: chown, chmod, chgrp, sudo, su, id, umask, groups, whoami, adduser, useradd and addgroup. |
 |2.    | [0x02-shell_redirections](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/tree/master/0x02-shell_redirections)              | This covered Linux shell I/O Redirections for standard output, error and input, filters, pipelines and metacharacters. Commands learnt about include echo, cat, head, tail, fins, wc, sort, uniq, grep, sort, tr, rev, cut and passwd.              |
 |3.    | [0x03-shell_variables_expansions](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/tree/master/0x03-shell_variables_expansions)              | This is a continuation of shell and bash scripting that looks at expansions(tilde, parameter, arithmetic, brace, pathname, command substitution), quoting, escaping characters, shell arithmetic(shell expansion, compound command, let built-in, declare -i), variables(global/environment, local/shell), special parameters($@, $*, $$, $0, $-, $_, $?, $!, $#) and alias command.              |
-|4.    |               |               |
+|4.    | [0x04-loops_conditions_and_parsing](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing)              | This is a continuation of the shell that looks at loops(for, while, until), break and continue in loops, conditionals(if, if..else, if..elif, if..elif..else, case statement),nested conditionals, operators(string, numeric and file), shellcheck and making shell script portable with /usr/bin/env bash.              |
 |5.    |               |               |
+|6.    |               |               |
+|7.    |               |               |
+|8.    |               |               |
+|9.    |               |               |
+|10.   |               |               |
+|11.   |               |               |
+|12.   |               |               |
+|13.   |               |               |

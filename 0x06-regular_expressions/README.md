@@ -26,5 +26,10 @@ A regular expression, commonly called a “regexp”, is a sequence of character
 - Quantifiers: n+, n*, n?, n{X}, n{X, Y}, n{X,}, n$, ^n, ?=n, ?!n.
 - Object properties: constructor, global, ignoreCase, lastIndex, multiline, source.
 - Object methods: exec(), test(), toString().
+
+**Rubular regex quick reference**
+
+![summary0](https://github.com/Muthoni-Maryanne/alx-system_engineering-devops/assets/107298263/9b17d949-23dd-4bd0-860f-f9d3806a6c41)
+
 ## Tasks
 

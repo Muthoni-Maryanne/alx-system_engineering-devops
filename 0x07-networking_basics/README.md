@@ -5,7 +5,7 @@
 2. [Different types of network](https://www.lifewire.com/lans-wans-and-other-area-networks-817376)
 3. [LAN network](https://en.wikipedia.org/wiki/Local_area_network)
 4. [WAN network](https://en.wikipedia.org/wiki/Wide_area_network)
-5. []()
+5. [Internet](https://en.wikipedia.org/wiki/Internet)
 6. []()
 7. []()
 8. []()

@@ -10,7 +10,7 @@
 7. [What is an IP address](https://www.bleepingcomputer.com/tutorials/ip-addresses-explained/)
 8. [Private and public address](https://www.iplocation.net/public-vs-private-ip-address#google_vignette)
 9. [IPv4 and IPv6](https://www.webopedia.com/insights/ipv6-ipv4-difference/)
-10. []()
+10. [Localhost](https://en.wikipedia.org/wiki/Localhost)
 11. []()
 12. []()
 13. []()

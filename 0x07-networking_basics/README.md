@@ -9,7 +9,7 @@
 6. [MAC address](https://whatismyipaddress.com/mac-address)
 7. [What is an IP address](https://www.bleepingcomputer.com/tutorials/ip-addresses-explained/)
 8. [Private and public address](https://www.iplocation.net/public-vs-private-ip-address#google_vignette)
-9. []()
+9. [IPv4 and IPv6](https://www.webopedia.com/insights/ipv6-ipv4-difference/)
 10. []()
 11. []()
 12. []()

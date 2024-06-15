@@ -8,7 +8,7 @@
 5. [Internet](https://en.wikipedia.org/wiki/Internet)
 6. [MAC address](https://whatismyipaddress.com/mac-address)
 7. [What is an IP address](https://www.bleepingcomputer.com/tutorials/ip-addresses-explained/)
-8. []()
+8. [Private and public address](https://www.iplocation.net/public-vs-private-ip-address#google_vignette)
 9. []()
 10. []()
 11. []()

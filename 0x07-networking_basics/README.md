@@ -7,7 +7,7 @@
 4. [WAN network](https://en.wikipedia.org/wiki/Wide_area_network)
 5. [Internet](https://en.wikipedia.org/wiki/Internet)
 6. [MAC address](https://whatismyipaddress.com/mac-address)
-7. []()
+7. [What is an IP address](https://www.bleepingcomputer.com/tutorials/ip-addresses-explained/)
 8. []()
 9. []()
 10. []()
